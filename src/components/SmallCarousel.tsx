@@ -69,11 +69,11 @@ export default function SmallCarousel(props: {
     }
   }
   return (
-    <section className="my-6">
+    <section className="flex flex-col my-6 items-center">
       <h2 className="text-center text-xl mb-2">{props.carouselTitle}</h2>
 
       {/* Compact Carousel Component */}
-      <div className="relative overflow-hidden px-4 bg-white dark:bg-zinc-950 dark:outline dark:outline-1 dark:outline-zinc-700  py-4 rounded-lg w-11/12 place-self-center">
+      <div className="relative items-center overflow-hidden px-4 bg-white dark:bg-zinc-950 dark:outline dark:outline-1 dark:outline-zinc-700 py-4 rounded-lg w-11/12 place-self-center">
         {/* Left Scroll Button */}
         <button
           onClick={scrollLeft}
