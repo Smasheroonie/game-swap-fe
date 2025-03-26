@@ -42,7 +42,7 @@ export const getUpcomingGames = async (
   platforms?: string | null
 ): Promise<Game[]> => {
   return fetchGames(
-    `/games?key=${rawgAPIKey}&dates=2025-01-13,2025-04-13&ordering=-added`,
+    `/games?key=${rawgAPIKey}&dates=2025-03-26,2025-06-26&ordering=-added`,
     platforms
   );
 };
